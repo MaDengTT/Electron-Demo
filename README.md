@@ -30,7 +30,7 @@ npm install -g cnpm --registry=https://registry.npm.taobao.org
 
 #### doc
 
-[CSDN ](http://blog.csdn.net/q809198545)
+NULL
 
 ---
 
