@@ -2608,6 +2608,11 @@ const template = [{
     mainWindow.webContents.send('href', 'test-one');
   }
 }, {
+  label: 'movie',
+  click() {
+    mainWindow.webContents.send('href', 'movie');
+  }
+}, {
   label: 'element ui',
   submenu: [{
     label: 'Table 表格',

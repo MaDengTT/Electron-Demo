@@ -52,9 +52,14 @@ let router =  new Router({
       component: require('@/pages/db/Nedb').default
     },
     {
-      path:'/test/one',
+      path:'/test/one-2',
       name:'test-one',
-      component:require('@/pages/test/one').default
+      component:require('@/pages/test/one-2').default
+    },
+    {
+      path:'/movie/MovieMain',
+      name:'movie',
+      component:require('@/pages/movie/MovieMain').default
     },
     {
       path: '*',
