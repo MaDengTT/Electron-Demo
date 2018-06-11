@@ -2608,6 +2608,11 @@ const template = [{
     mainWindow.webContents.send('href', 'test-one');
   }
 }, {
+  label: 'friends',
+  click() {
+    mainWindow.webContents.send('href', 'friends');
+  }
+}, {
   label: 'movie',
   click() {
     mainWindow.webContents.send('href', 'movie');

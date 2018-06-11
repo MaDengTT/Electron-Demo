@@ -62,6 +62,11 @@ let router =  new Router({
       component:require('@/pages/movie/MovieMain').default
     },
     {
+      path:'/friends/mainpage',
+      name:'friends',
+      component:require('@/pages/friends/mainpage').default
+    },
+    {
       path: '*',
       redirect: '/'
     }

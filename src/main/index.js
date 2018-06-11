@@ -70,6 +70,12 @@ const template = [{
     }
   },
   {
+    label:'friends',
+    click(){
+      mainWindow.webContents.send('href','friends');
+    }
+  },
+  {
     label:'movie',
     click(){
       mainWindow.webContents.send('href','movie');
